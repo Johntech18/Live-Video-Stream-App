@@ -53,8 +53,8 @@ window.onload = function () {
                 '?roomID=' +
                 roomID +
                 '&role=Audience',
-        }],
-        sharedLinks: [{
+        },
+                     {
             name: 'Join as a co-host',
             url:
                 window.location.protocol + '//' +
