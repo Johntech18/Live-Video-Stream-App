@@ -1,9 +1,24 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 #root {
     width: 100vw;
-    height: 100vh;
-    }
+    height: 100vh
+    padding : 0px;
+}
+            
+            
+            
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+html {
+  display: table;
+  margin: auto;
+  font-size: 10px;
+}
