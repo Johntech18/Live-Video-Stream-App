@@ -54,6 +54,16 @@ window.onload = function () {
                 roomID +
                 '&role=Audience',
         }],
+        sharedLinks: [{
+            name: 'Join as a co-host',
+            url:
+                window.location.protocol + '//' +
+                window.location.host +
+                window.location.pathname +
+                '?roomID=' +
+                roomID +
+                '&role=Host',
+        }],
         ...config
     });
 }
